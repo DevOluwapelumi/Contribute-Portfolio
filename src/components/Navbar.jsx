@@ -68,10 +68,10 @@ const Navbar = () => {
                 </a>
               </li>
             </ul>
-            <div>
-                <img src="" alt="github" />
-                <img src="" alt="linkedin" />
-                <img src="" alt="X" />
+            <div className="d-flex gap-4">
+                <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/github-icon.png" alt="github" width={20}/>
+                <img src="https://cdn-icons-png.freepik.com/256/1384/1384014.png?uid=R27532602&ga=GA1.1.1710244603.1708425592&" alt="linkedin" width={20}/>
+                <img src="https://cdn-icons-png.freepik.com/256/5969/5969020.png?uid=R27532602&ga=GA1.1.1710244603.1708425592&" alt="X" width={20}/>
             </div>
           </div>
         </div>
