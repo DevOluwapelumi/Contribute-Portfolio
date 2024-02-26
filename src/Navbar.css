@@ -1,0 +1,60 @@
+span {
+  color: #000000;
+  font-size: 1em;
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 700;
+}
+span span {
+  /*display:table-cell;
+  */
+  animation: animate 10s linear infinite;
+  -webkit-animation: animate 10s linear infinite;
+}
+span span:nth-child(1) {
+  animation-delay: 1s;
+}
+span span:nth-child(2) {
+  animation-delay: 1.5s;
+}
+span span:nth-child(3) {
+  animation-delay: 2s;
+}
+span span:nth-child(4) {
+  animation-delay: 2.5s;
+}
+span span:nth-child(5) {
+  animation-delay: 3s;
+}
+span span:nth-child(6) {
+  animation-delay: 3.5s;
+}
+span span:nth-child(7) {
+  animation-delay: 4s;
+}
+span span:nth-child(8) {
+  animation-delay: 4.5s;
+}
+span span:nth-child(9) {
+  animation-delay: 5s;
+}
+span:nth-child(10),
+span:nth-child(11),
+span:nth-child(12),
+span:nth-child(13),
+span:nth-child(14) {
+  animation-delay: 6s;
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    color: #fff;
+    filter: blur(50px);
+    -webkit-filter: blur(50px);
+  }
+  5%,
+  95% {
+    color: #000000;
+    filter: blur(0px);
+  }
+}
