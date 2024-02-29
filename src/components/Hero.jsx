@@ -19,10 +19,25 @@ const Hero = () => {
           </h6>
         </div>
         <div className="hero-right col p-lg-5 ms-lg- ">
-          <div class="profile">
-            <div class="profile-image">
-              <img src="fb.jpg" />
+          <div class="a-box">
+            <div class="img-container p-">
+              <div class="img-inner">
+                <div class="inner-skew p-">
+                  <img src="pp.png"></img>
+                </div>
+              </div>
             </div>
+            <div class="text-container">
+              <h3>Senior Dev</h3>
+              <div>
+                Agba Dev
+              </div>
+            </div>
+            {/* <div class="profile shadow-lg ">
+            <div class="profile-image shadow ">
+              <img src="fb.jpg" className="shadow "/>
+            </div>
+          </div> */}
           </div>
         </div>
       </div>
