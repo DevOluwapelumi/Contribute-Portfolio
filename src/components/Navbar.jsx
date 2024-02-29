@@ -4,26 +4,40 @@ import "../Navbar.css";
 const Navbar = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary px-">
+      <nav className="navbar navbar-expand-lg bg-body-tertiary ps-lg-5 px-3 pe-lg-0 py-lg-3 shadow">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            <span id="logo">
+            <div id="logo">
               <span>D</span>
               <span>e</span>
               <span>E</span>
-              <span>M</span>
-              <span>I</span>
-              <span>N</span>
-              <span>E</span>
-              <span>N</span>
-              <span>T</span>
+              <span>m</span>
+              <span>i</span>
+              <span>n</span>
+              <span>e</span>
+              <span>n</span>
+              <span>t</span>
               <span>C</span>
-              <span>O</span>
-              <span>D</span>
-              <span>E</span>
-              <span>R</span>
-            </span>
+              <span>o</span>
+              <span>d</span>
+              <span>e</span>
+              <span>r</span>
+            </div>
           </a>
+          <div className="d-flex gap-4 px-2 mx-lg-5 social shadow rounded">
+            <a href="https://github.com/deeminentcoder" className="text-black fs-4">
+              <i class="fa fa-github-square" aria-hidden="true"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/kehinde-olaleye-307229123/"
+              className="text-black fs-4"
+            >
+              <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+            </a>
+            <a href="https://twitter.com/DeEminentCoder" className="text-black fs-4">
+              <i class="fa fa-twitter-square" aria-hidden="true"></i>
+            </a>
+          </div>
           <button
             className="navbar-toggler"
             type="button"
@@ -33,15 +47,19 @@ const Navbar = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon btn-sm"></span>
           </button>
-          <div className="collapse navbar-collapse container-fluid " id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <div
+            className="collapse navbar-collapse container-fluid ms-lg-5 ps-lg-5 justify-content-end"
+            id="navbarSupportedContent"
+          >
+            <ul className="navbar-nav me- mb- mb-lg-0 ms-lg-5 pe-lg-5 nav-ul">
               <div className="row">
                 <div className="col-4 col-sm">
                   <li className="nav-item">
                     <a className="nav-link active" aria-current="page" href="#">
-                      <i class="fa fa-home"></i>
+                      <i class="fa fa-star-o"></i>
                       <span>Home</span>
                     </a>
                   </li>
@@ -49,7 +67,7 @@ const Navbar = () => {
                 <div className="col-4 col-sm">
                   <li className="nav-item">
                     <a className="nav-link" href="#">
-                      <i className="fa fa-user"></i>
+                      <i className="fa fa-user-o"></i>
                       <span>About</span>
                     </a>
                   </li>
@@ -57,7 +75,7 @@ const Navbar = () => {
                 <div className="col-4 col-sm">
                   <li className="nav-item">
                     <a className="nav-link" href="#">
-                      <i className="fa fa-tools"></i>
+                      <i class="fa fa-lightbulb"> </i>
                       <span>Skills</span>
                     </a>
                   </li>
@@ -73,7 +91,7 @@ const Navbar = () => {
                 <div className="col-4 col-sm">
                   <li className="nav-item">
                     <a className="nav-link" href="#">
-                      <i class="fa fa-phone"></i>
+                      <i class="fa fa-address-book-o"></i>
                       <span>Contact</span>
                     </a>
                   </li>
@@ -81,30 +99,13 @@ const Navbar = () => {
                 <div className="col-4 col-sm">
                   <li className="nav-item">
                     <a className="nav-link" href="#">
-                      <i class="fa fa-file"></i>
+                      <i class="fa fa-file-o"></i>
                       <span>Resume</span>
                     </a>
                   </li>
                 </div>
               </div>
             </ul>
-            <div className="d-flex gap-4 px-3">
-              <img
-                src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/github-icon.png"
-                alt="github"
-                width={20}
-              />
-              <img
-                src="https://cdn-icons-png.freepik.com/256/1384/1384014.png?uid=R27532602&ga=GA1.1.1710244603.1708425592&"
-                alt="linkedin"
-                width={20}
-              />
-              <img
-                src="https://cdn-icons-png.freepik.com/256/5969/5969020.png?uid=R27532602&ga=GA1.1.1710244603.1708425592&"
-                alt="X"
-                width={20}
-              />
-            </div>
           </div>
         </div>
       </nav>

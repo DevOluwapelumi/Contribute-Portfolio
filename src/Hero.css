@@ -1,0 +1,68 @@
+.hero-container {
+  background-image: linear-gradient(
+    to left,
+    rgba(61, 103, 113, 0.75) 17%,
+    rgba(41, 21, 41, 0.86) 100%
+  );
+}
+.hero-left-text {
+  font-family: "Cairo Play", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+  color: #ffffff;
+  text-shadow: 1px 1px 5px #000000db;
+}
+.hero-left-text2 {
+  font-family: "Cairo Play", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 0.5em;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+  color: #FFC83D;
+  text-shadow: 1px 1px 5px #000000db;
+}
+.hero-left-text3 {
+  font-family: "Cairo Play", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 0.2em;
+  font-weight: 300;
+  font-style: normal;
+  line-height: -100px;
+  font-variation-settings:
+    "slnt" 0;
+  color: #ffffff;
+  text-shadow: 1px 1px 5px #000000db;
+}
+
+.profile {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 3rem;
+	/* width: 10%; */
+	background-color: #1b20285e;
+	border-radius: 16px;
+	position: relative;
+	background-clip: padding-box;
+}
+
+
+.profile-image {
+	border-radius: 50%;
+	overflow: hidden;
+	width: 350px;
+	height: 350px;
+	position: relative;
+	img {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 100%;
+	}
+}
