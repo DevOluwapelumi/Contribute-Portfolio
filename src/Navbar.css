@@ -40,35 +40,35 @@ nav {
   animation-delay: 1s;
 }
 #logo span:nth-child(2) {
-  animation-delay: 1.5s;
+  animation-delay: 1.2s;
 }
 #logo span:nth-child(3) {
-  animation-delay: 2s;
+  animation-delay: 1.4s;
 }
 #logo span:nth-child(4) {
-  animation-delay: 2.5s;
+  animation-delay: 1.6s;
 }
 #logo span:nth-child(5) {
-  animation-delay: 3s;
+  animation-delay: 1.8s;
 }
 #logo span:nth-child(6) {
-  animation-delay: 3.5s;
+  animation-delay: 2s;
 }
 #logo span:nth-child(7) {
-  animation-delay: 4s;
+  animation-delay: 2.2s;
 }
 #logo span:nth-child(8) {
-  animation-delay: 4.5s;
+  animation-delay: 2.4s;
 }
 #logo span:nth-child(9) {
-  animation-delay: 5s;
+  animation-delay: 2.6s;
 }
 #logo span:nth-child(10),
 #logo span:nth-child(11),
 #logo span:nth-child(12),
 #logo span:nth-child(13),
 #logo span:nth-child(14) {
-  animation-delay: 5.5s;
+  animation-delay: 4s;
   transition: cubic-bezier(0.215, 0.610, 0.355, 1);
   -webkit-transition: cubic-bezier(0.215, 0.610, 0.355, 1);
   -moz-transition: cubic-bezier(0.215, 0.610, 0.355, 1);
