@@ -13,10 +13,14 @@ const Hero = () => {
           <span className="hero-left-text2 ">A Front-End Developer 👨‍💻</span>
           <br />
           <h6 className="hero-left-text3">
-          Front-End Engineer | Building Modern Web Experiences with HTML, CSS and Javascript(React.js). || Bootstrap || Tailwind
+            Building Modern Web Experiences with HTML5{" "}
+            <i class="fa fa-html5"></i> CSS3 <i class="fa fa-css3"> </i> and
+            Javascript(React.js) <i class="bi bi-filetype-jsx"> </i> || Bootstrap <i class="bi bi-bootstrap"> </i> 
+            || Tailwind
           </h6>
+          <a href="#" class="btn text-white">Hire Me</a>
         </div>
-        <div className="hero-right col p-lg-5 my-lg-2 d-flex justify-content-center align-items-center">
+        <div className="hero-right col p-lg-5 my-lg-2 d-flex justify-content-center align-items-">
           <div className="carousel__container">
             <div className="carousel-item shadow">
               <img className="carousel-item__img" src="pp.png" alt="Kennyimg" />
@@ -29,11 +33,6 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          {/* <div class="profile shadow-lg ">
-            <div class="profile-image shadow ">
-              <img src="fb.jpg" className="shadow "/>
-            </div>
-          </div> */}
         </div>
       </div>
     </>

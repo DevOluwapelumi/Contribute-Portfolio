@@ -1,3 +1,4 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 .hero-container {
   background-image: linear-gradient(
     to left,
@@ -209,6 +210,64 @@
   font-size: 0.8em;
   letter-spacing: 2px;
 }
+
+.btn {
+  position: relative;
+  letter-spacing: 0.25em;
+  font-weight: 500;
+  /* margin: 0 auto; */
+  padding: 5px 10px;
+  outline: none;
+  /* font-size: 1em; */
+  color: rgb(255, 255, 255);
+  background-image: linear-gradient(
+    to left,
+    rgb(146 234 255 / 75%) 17%,
+    rgb(249 145 251 / 86%) 100%
+  );
+
+  &::after,
+  &::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    transform: skewX(30deg);
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    z-index: -2;
+  }
+  &::before {
+    background-image: linear-gradient(
+    to left,
+    rgb(146 234 255 / 75%) 17%,
+    rgb(249 145 251 / 86%) 100%
+  );
+    top: -1rem;
+    left: 0rem;
+  }
+  &::after {
+background-image: linear-gradient(
+    to right,
+    rgb(146 234 255 / 75%) 17%,
+    rgb(249 145 251 / 86%) 100%
+  );    top: 1rem;
+    left: 4rem;
+  }
+  &:hover {
+    &::before,
+    &::after {
+      top: 0;
+      transform: skewx(0deg);
+    }
+    &::after {
+      left: 0rem;
+    }
+    &::before {
+      left: 2.75rem;
+    }
+  }
+}
+
 
 @media only screen and (max-width: 992px) {
   .carousel-item {
