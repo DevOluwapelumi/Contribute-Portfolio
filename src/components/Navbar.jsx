@@ -4,7 +4,7 @@ import "../Navbar.css";
 const Navbar = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary ps-lg-5 px-3 pe-lg-0 py-lg-3 shadow">
+      <nav className="navbar navbar-expand-lg bg-body-tertiary ps-lg-5 px-3 pe-lg-0 py-lg-3 shadow-sm fixed-top">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             <div id="logo">
@@ -109,6 +109,9 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
+      <div className="pt-5">
+        {/* Your page content goes here */}
+      </div>
     </>
   );
 };

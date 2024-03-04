@@ -11,6 +11,7 @@ nav {
     rgb(249 145 251 / 86%) 100%
   );
 }
+
 #logo span:hover {
   text-shadow: -2px -9px 2px rgba(146, 234, 255, 0.75);
   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -18,19 +19,18 @@ nav {
   -moz-transition: cubic-bezier(0.075, 0.82, 0.165, 1);
   -ms-transition: cubic-bezier(0.075, 0.82, 0.165, 1);
   -o-transition: cubic-bezier(0.075, 0.82, 0.165, 1);
-} 
-
+}
 
 #logo {
   color: #000000;
   font-size: 1em;
   /* font-family: "Protest Revolution", sans-serif; */
-  font-weight: 700;font-family: "Cairo Play", sans-serif;
+  font-weight: 700;
+  font-family: "Cairo Play", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
-  font-variation-settings:
-    "slnt" 0;
+  font-variation-settings: "slnt" 0;
 }
 #logo span {
   animation: animate 10s linear infinite;
@@ -69,11 +69,11 @@ nav {
 #logo span:nth-child(13),
 #logo span:nth-child(14) {
   animation-delay: 4s;
-  transition: cubic-bezier(0.215, 0.610, 0.355, 1);
-  -webkit-transition: cubic-bezier(0.215, 0.610, 0.355, 1);
-  -moz-transition: cubic-bezier(0.215, 0.610, 0.355, 1);
-  -ms-transition: cubic-bezier(0.215, 0.610, 0.355, 1);
-  -o-transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+  transition: cubic-bezier(0.215, 0.61, 0.355, 1);
+  -webkit-transition: cubic-bezier(0.215, 0.61, 0.355, 1);
+  -moz-transition: cubic-bezier(0.215, 0.61, 0.355, 1);
+  -ms-transition: cubic-bezier(0.215, 0.61, 0.355, 1);
+  -o-transition: cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .social a :hover {
   transform: translateY(3px);
@@ -108,8 +108,7 @@ nav {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  font-variation-settings:
-    "slnt" 0;
+  font-variation-settings: "slnt" 0;
 }
 .active {
   box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.5);
