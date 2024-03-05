@@ -7,6 +7,7 @@ import Navbar from './components/Navbar.jsx'
 import Hero from './components/Hero.jsx'
 import AboutMe from './components/AboutMe.jsx';
 import Footer from './components/Footer.jsx';
+import Skills from './components/Skills.jsx';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
     <Navbar></Navbar>
     <Hero></Hero>
     <AboutMe></AboutMe>
+    <Skills></Skills>
     <Footer></Footer>
     </>
   )
