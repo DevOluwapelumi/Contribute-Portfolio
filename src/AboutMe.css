@@ -1,5 +1,11 @@
 
-/* .about-me-container {} */
+/* .about-me-container {
+  background-image: linear-gradient(
+    to left,
+    rgba(61, 103, 113, 0.75) 17%,
+    rgba(41, 21, 41, 0.86) 100%
+  );
+} */
 .about-me {
     background-image: linear-gradient(
         to left,

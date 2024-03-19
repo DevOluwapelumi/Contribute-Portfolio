@@ -4,7 +4,7 @@ import "../Hero.css";
 const Hero = () => {
   return (
     <>
-      <div className="hero-container row p-2 display-1 ps-lg-5 gap-4 container-fluid m-0 shadow">
+      <div className="hero-container row p-2 display-1 ps-lg-5 gap-4 container-fluid m-0 ">
         <div className="hero-left col p-lg-5 my-lg-2 text-center text-lg-start ">
           <span className="hero-left-text ">
             Hello!,<span className="wave">👋 </span> I'm Kehinde Olaleye
@@ -18,7 +18,7 @@ const Hero = () => {
             Javascript(React.js) <i class="bi bi-filetype-jsx"> </i> || Bootstrap <i class="bi bi-bootstrap"> </i> 
             || Tailwind
           </h6>
-          <a href="#" class="btn text-white hire-me-btn">Hire Me</a>
+          <a href="#" class="btn text-light hire-me-btn">Hire Me</a>
         </div>
         <div className="hero-right col p-lg-5 my-lg-2 d-flex justify-content-center align-items-">
           <div className="carousel__container">

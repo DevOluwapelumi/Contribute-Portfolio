@@ -84,7 +84,7 @@ const Navbar = () => {
                   <li className="nav-item">
                     <a className="nav-link" href="#">
                       <i className="fa fa-gear fa-spin fa-3x fa-fw p-0"></i>
-                      <span className="ps-1">Projects</span>
+                      <span className="ps-">Projects</span>
                     </a>
                   </li>
                 </div>

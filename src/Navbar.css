@@ -4,6 +4,13 @@
   box-sizing: border-box;
   /* outline: gold solid 1px; */
 }
+body {
+  background-image: linear-gradient(
+    to left,
+    rgba(61, 103, 113, 0.75) 17%,
+    rgba(41, 21, 41, 0.86) 100%
+  );
+}
 nav {
   background-image: linear-gradient(
     to left,

@@ -8,6 +8,7 @@ import Hero from './components/Hero.jsx'
 import AboutMe from './components/AboutMe.jsx';
 import Footer from './components/Footer.jsx';
 import Skills from './components/Skills.jsx';
+import Projects from './components/Projects.jsx';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
     <Hero></Hero>
     <AboutMe></AboutMe>
     <Skills></Skills>
+    <Projects></Projects>
     <Footer></Footer>
     </>
   )

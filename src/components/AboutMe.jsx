@@ -3,7 +3,7 @@ import "../AboutMe.css";
 
 const AboutMe = () => {
   return (
-    <section className="d-flex justify-content-center align-items-center position-relative container-fluid p-5 bg-dark about-me-container">
+    <section className="d-flex justify-content-center align-items-center position-relative container-fluid p-5 bg- about-me-container">
       <div className="row d-flex justify-content-center align-content-center p-4 m-lg-5 rounded-4 gap-1 about-me">
         <div className="col-4 about-left">
           <img
