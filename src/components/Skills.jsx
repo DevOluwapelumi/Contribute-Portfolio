@@ -6,10 +6,10 @@ const Skills = () => {
   return (
     <>
       <div className="section bg-dark bg-gradient shadow-lg text-center text-light p-5">
-        <h1 className="display-6">My SKills</h1>
+        <h1 className="display-3">My SKills</h1>
         <h6 className="display-6 px-lg-5 fs-6">I utilize my creativity and technical expertise to solve problems with attention to detail, ensuring effective communication and fostering adaptability and team work, all while maintaining a keen understanding of user experience and aesthetics.</h6>
       </div>
-      <div className="skills bg-dark d-grid align-content-center">
+      <div className="skills bg-dark d-grid align-content-center mb-5 ">
         <div class="wrapper pb-5">
           <div class="marquee text-white">
             <div class="marquee__group">

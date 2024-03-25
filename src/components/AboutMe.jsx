@@ -3,7 +3,9 @@ import "../AboutMe.css";
 
 const AboutMe = () => {
   return (
-    <section className="d-flex justify-content-center align-items-center position-relative container-fluid p-5 bg- about-me-container">
+    <>
+    <section className="d-grid justify-content-center align-items-center position-relative container-fluid p-5 bg- about-me-container">
+    <h1 className="display-3 text-center">About Me</h1>
       <div className="row d-flex justify-content-center align-content-center p-4 m-lg-5 rounded-4 gap-1 about-me">
         <div className="col-4 about-left">
           <img
@@ -46,9 +48,8 @@ const AboutMe = () => {
         <li></li>
       </ul>
     </section>
-    // <section className="about-me-section container-fluid p-5">
-    //
-    // </section>
+   
+    </>
   );
 };
 
