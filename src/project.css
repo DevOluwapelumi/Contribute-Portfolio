@@ -21,7 +21,7 @@ h2 {
   font-size: 1.25rem;
   font-family: var(--font-title);
   color: var(--white);
-  line-height: 1.1;
+  /* line-height: 1.1; */
 }
 
 .flow > * + * {
@@ -70,6 +70,7 @@ h2 {
 
 .card__title {
   position: relative;
+  bottom: 10px;
   width: fit-content;
   width: -moz-fit-content; /* Prefijo necesario para Firefox  */
 }
@@ -81,20 +82,14 @@ h2 {
   width: calc(100% + 1.25rem);
   bottom: calc((1.25rem - 0.5rem) * -1);
   left: -1.25rem;
-  background-color: var(--brand-color);
+  background-color: #ffffff;
 }
 
-.card__button {
-  padding: 0.45em 1.4em;
-  width: fit-content;
-  width: -moz-fit-content; /* Prefijo necesario para Firefox  */
-  font-weight: bold;
-  border-radius: 0.45em;
-  border: none;
-  background-color: var(--brand-color);
-  font-family: var(--font-title);
-  /* font-size: 1.125rem; */
-  color: var(--black);
+.card__button a {
+ text-decoration: none;
+ letter-spacing: 10px;
+ font-size: 2em;
+ color: #ffffff;
 }
 
 .card__button:focus {
@@ -178,8 +173,24 @@ h2 {
     transition-delay: 500ms;
   }
 }
+.social a :hover {
+  transform: translateY(3px);
+  -webkit-transform: translateY(3px);
+  -moz-transform: translateY(3px);
+  -ms-transform: translateY(3px);
+  -o-transform: translateY(3px);
+  transition: 0.7s ease-out;
+  -webkit-transition: 0.7s ease-out;
+  -moz-transition: 0.7s ease-out;
+  -ms-transition: 0.7s ease-out;
+  -o-transition: 0.7s ease-out;
+}
 
 
+@media only screen and (max-width: 992px) {
+  body {
+  }
+}
 
 
 
