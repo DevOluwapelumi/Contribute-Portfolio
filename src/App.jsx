@@ -9,6 +9,7 @@ import AboutMe from './components/AboutMe.jsx';
 import Footer from './components/Footer.jsx';
 import Skills from './components/Skills.jsx';
 import Projects from './components/Projects.jsx';
+import Contact from './components/Contact.jsx';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
     <Skills></Skills>
     <Projects></Projects>
     <Footer></Footer>
+    <Contact></Contact>
     </>
   )
 }

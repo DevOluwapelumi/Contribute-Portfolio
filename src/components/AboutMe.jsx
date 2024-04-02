@@ -30,8 +30,8 @@ const AboutMe = () => {
             and technologies in the web development field.
           </span>
           <div className="row p-3 d-flex align-content-start  justify-content-start gap-3">
-            <button className="btn btn-lg btn-light col-sm-4 col-12 ">Contact Me</button>
-            <button className="btn btn-lg btn-outline-light  col-sm-4 col-12 ">Download CV</button>
+            <button className="btn btn-lg btn-outline-light col-sm-4 col-12 ">Contact Me</button>
+            <button className="btn btn-lg btn-danger col-sm-4 col-12 ">Download CV</button>
           </div>
         </div>
       </div>
