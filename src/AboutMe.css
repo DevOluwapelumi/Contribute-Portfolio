@@ -6,6 +6,34 @@
     rgba(41, 21, 41, 0.86) 100%
   );
 } */
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
+}
+.show {
+  opacity: 1;
+  filter: blur(0);
+  -webkit-filter: blur(0);
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+}
+.about-me h1{
+  transition-delay: 0ms;
+}
 .about-me {
     background-image: linear-gradient(
         to left,
@@ -14,7 +42,8 @@
       );
       z-index: 10;
     backdrop-filter: blur(5px);
-}
+    transition-delay: 100ms;
+  }
 .about-left img {
     transform: scaleX(-1);
 

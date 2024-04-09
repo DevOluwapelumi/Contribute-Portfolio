@@ -1,7 +1,31 @@
 /*-----------------------------------*\
    * #RESET
   \*-----------------------------------*/
-
+  .hidden {
+    opacity: 0;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+  }
+  .show {
+    opacity: 1;
+    filter: blur(0);
+    -webkit-filter: blur(0);
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+  }
 li {
   list-style: none;
 }
@@ -165,7 +189,6 @@ textarea.input-field {
 .social-links {
   position: relative;
   font-family: "FontAwesome";
-  display: flex;
 }
 .social-links li {
   position: relative;
@@ -177,7 +200,7 @@ textarea.input-field {
   text-decoration: none;
 }
 .social-links li a .fa-brands {
-  font-size: 3em;
+  font-size: 4em;
   color: #909090;
 }
 .social-links li a::before {
@@ -185,10 +208,19 @@ textarea.input-field {
   position: absolute;
   top: 0;
   left: 0;
-  font-size: 3em;
+  font-size: 4em;
   height: 0;
   overflow: hidden;
   transition: 0.5s ease-in-out;
+}
+.social-links li:nth-child(1) a{
+  transition-delay: 400ms;
+}
+.social-links li:nth-child(2) a{
+  transition-delay: 700ms;
+}
+.social-links li:nth-child(3) a{
+  transition-delay: 1000ms;
 }
 
 .social-links li:nth-child(1) a::before {

@@ -26,16 +26,16 @@ const Navbar = () => {
           </a>
           <div className="d-flex gap-4 px-2 mx-lg-5 social shadow rounded">
             <a href="https://github.com/deeminentcoder" className="text-black fs-4">
-              <i class="fa fa-github-square" aria-hidden="true"></i>
+              <i className="fa fa-github-square" aria-hidden="true"></i>
             </a>
             <a
               href="https://www.linkedin.com/in/kehinde-olaleye-307229123/"
               className="text-black fs-4"
             >
-              <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+              <i className="fa fa-linkedin-square" aria-hidden="true"></i>
             </a>
             <a href="https://twitter.com/DeEminentCoder" className="text-black fs-4">
-              <i class="fa fa-twitter-square" aria-hidden="true"></i>
+              <i className="fa fa-twitter-square" aria-hidden="true"></i>
             </a>
           </div>
           <button
@@ -59,7 +59,7 @@ const Navbar = () => {
                 <div className="col-4 col-sm">
                   <li className="nav-item">
                     <a className="nav-link active" aria-current="page" href="#">
-                      <i class="fa fa-star-o"></i>
+                      <i className="fa fa-star-o"></i>
                       <span>Home</span>
                     </a>
                   </li>
@@ -75,7 +75,7 @@ const Navbar = () => {
                 <div className="col-4 col-sm">
                   <li className="nav-item">
                     <a className="nav-link" href="#">
-                      <i class="fa fa-lightbulb"> </i>
+                      <i className="fa fa-lightbulb"> </i>
                       <span>Skills</span>
                     </a>
                   </li>
@@ -91,7 +91,7 @@ const Navbar = () => {
                 <div className="col-4 col-sm">
                   <li className="nav-item">
                     <a className="nav-link" href="#">
-                      <i class="fa fa-address-book-o"></i>
+                      <i className="fa fa-address-book-o"></i>
                       <span>Contact</span>
                     </a>
                   </li>
@@ -99,7 +99,7 @@ const Navbar = () => {
                 <div className="col-4 col-sm">
                   <li className="nav-item">
                     <a className="nav-link" href="#">
-                      <i class="fa fa-file-o"></i>
+                      <i className="fa fa-file-o"></i>
                       <span>Resume</span>
                     </a>
                   </li>

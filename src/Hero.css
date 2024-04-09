@@ -6,6 +6,40 @@
     rgba(41, 21, 41, 0.86) 100%
   );
 } */
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
+}
+.show {
+  opacity: 1;
+  filter: blur(0);
+  -webkit-filter: blur(0);
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+}
+/* @media(prefers-reduced-motion) {
+  .hidden {
+    transition: none;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+}
+} */
 .hero-left-text {
   font-family: "Cairo Play", sans-serif;
   font-optical-sizing: auto;
@@ -112,6 +146,7 @@
 
 .carousel__container {
   white-space: nowrap;
+  transition-delay: 300ms;
   display: inline-block;
 }
 
@@ -213,7 +248,8 @@
 
 .hire-me-btn {
   position: relative;
-  letter-spacing: 0.25em;
+    transition-delay: 1000ms;
+    letter-spacing: 0.25em;
   font-weight: 700;
   padding: 5px 20px;
   outline: none;
@@ -242,12 +278,12 @@
     -moz-transform: skewX(30deg);
     -ms-transform: skewX(30deg);
     -o-transform: skewX(30deg);
-}
+  }
   &::before {
     background-image: linear-gradient(
       to left,
       rgba(70, 116, 127, 0.75) 17%,
-    rgba(127, 72, 128, 0.86) 100%
+      rgba(127, 72, 128, 0.86) 100%
     );
     top: -0.5rem;
     left: -0.5rem;
@@ -256,7 +292,7 @@
     background-image: linear-gradient(
       to right,
       rgba(70, 116, 127, 0.75) 17%,
-    rgba(127, 72, 128, 0.86) 100%
+      rgba(127, 72, 128, 0.86) 100%
     );
     top: 0.5rem;
     left: 4.5rem;
@@ -280,8 +316,6 @@
     }
   }
 }
-
-
 
 @media only screen and (max-width: 992px) {
   .carousel-item {
