@@ -4,7 +4,7 @@ import "../AboutMe.css";
 const AboutMe = () => {
   return (
     <>
-      <section className="d-grid justify-content-center align-items-center position-relative container-fluid p-5 bg- about-me-container">
+      <section id="About-me" className="d-grid justify-content-center align-items-center position-relative container-fluid p-5 bg- about-me-container">
         <h1 className="hidden display-3 text-center">About Me</h1>
         <div className="hidden row d-flex justify-content-center align-content-center p-4 m-lg-5 rounded-4 gap-1 about-me">
           <div className="col-4 about-left">
@@ -31,10 +31,12 @@ const AboutMe = () => {
             </span>
             <div className="row p-3 d-flex align-content-start  justify-content-start gap-3">
               <button className="btn btn-lg btn-outline-light col-sm-4 col-12 ">
-                Contact Me
+              <i className="fas fa-sms"></i>
+                <span> Contact Me</span>
               </button>
               <button className="btn btn-lg btn-danger col-sm-4 col-12 ">
-                Download CV
+              <i className="fa fa-file-o file"> </i>
+                <span> Download CV</span>
               </button>
             </div>
           </div>

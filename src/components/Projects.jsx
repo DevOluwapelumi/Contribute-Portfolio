@@ -4,7 +4,7 @@ import "../project.css";
 const Projects = () => {
   return (
     <>
-      <h1 className="hidden text-light text-center pt-5 display-3">Latest Projects</h1>
+      <h1 id="Projects" className="hidden text-light text-center pt-5 display-3">Latest Projects</h1>
       <div className="row d-flex justify-content-center align-items-center p-5 gap- container-fluid m-0">
         <div className="hidden col col-lg-6">
           <div className="card">

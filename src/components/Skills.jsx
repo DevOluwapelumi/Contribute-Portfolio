@@ -5,7 +5,7 @@ import "../skills.css";
 const Skills = () => {
   return (
     <>
-      <div className="section bg-dark bg-gradient shadow-lg text-center text-light p-5">
+      <div id="Skills" className="section bg-dark bg-gradient shadow-lg text-center text-light p-5">
         <h1 className="hidden display-3">My SKills</h1>
         <h6 className="hidden display-6 px-lg-5 fs-6">I utilize my creativity and technical expertise to solve problems with attention to detail, ensuring effective communication and fostering adaptability and team work, all while maintaining a keen understanding of user experience and aesthetics.</h6>
       </div>
@@ -44,7 +44,7 @@ const Skills = () => {
           <div className="marquee marquee--reverse">
             <div className="marquee__group">
                 <span className="skill-icons--html hidden"><h6 className="">HTML 5</h6></span>
-                <span className="skill-icons--css hidden"><h6 c hiddenlassName="">CSS 3</h6></span>
+                <span className="skill-icons--css hidden"><h6 className="">CSS 3</h6></span>
                 <span className="skill-icons--javascript hidden`"><h6 className="">JAVASCRIPT</h6></span>
                 <span className="skill-icons--react-dark hidden"><h6 className="">REACT</h6></span>
                 <span className="skill-icons--vite-dark hidden"><h6 className="">VITE</h6></span>

@@ -6,6 +6,9 @@
     rgba(41, 21, 41, 0.86) 100%
   );
 } */
+#About-me {
+  padding-top: 80px !important;
+}
 .hidden {
   opacity: 0;
   filter: blur(5px);

@@ -23,7 +23,9 @@
   -ms-transform: translateX(0);
   -o-transform: translateX(0);
 }
-
+#Projects{
+  padding-top: 80px !important;
+}
 h1 {
   font-family: "Cairo Play", sans-serif;
   font-optical-sizing: auto;

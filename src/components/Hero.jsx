@@ -4,6 +4,7 @@ import '../scrollanim.js'
 
 const Hero = () => {
   // SCROLL ANIMATION AND TRANSITION EFFECTS
+ 
   const heroLeft = useRef(null); // Ref for the left element
   const heroRight = useRef(null); // Ref for the right element
 
@@ -29,7 +30,7 @@ const Hero = () => {
 
   return (
     <>
-      <div className="hero-container row p-2 display-1 ps-lg-5 gap-4 container-fluid m-0 d-sm-grid d-md-grid d-lg-flex">
+      <div id='Hero' className="hero-container row p-2 display-1 ps-lg-5 gap-4 container-fluid m-0 d-sm-grid d-md-grid d-lg-flex">
         <div className="hidden hero-left col p-lg-5 my-lg-2 text-center text-lg-start p-sm-5 m-sm- ">
           <span className="hero-left-text">
             Hello!,<span className="wave">👋 </span> I'm Kehinde Olaleye
