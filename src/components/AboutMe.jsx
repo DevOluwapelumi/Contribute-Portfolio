@@ -29,10 +29,10 @@ const AboutMe = () => {
               continuous learning and staying up to date with the latest trends
               and technologies in the web development field.
             </span>
-            <div className="row p-3 d-flex align-content-start  justify-content-start gap-3">
-              <button className="btn btn-lg btn-outline-light col-sm-4 col-12 ">
+            <div className="row p-3 d-flex align-content-start justify-content-start gap-3">
+              <button className="btn btn-lg btn-outline-light col-sm-4 col-12">
               <i className="fas fa-sms"></i>
-                <span> Contact Me</span>
+                <a href="#Contact" className="text-decoration-none link-light "> <span>Contact Me</span></a>
               </button>
               <button className="btn btn-lg btn-danger col-sm-4 col-12 ">
               <i className="fa fa-file-o file"> </i>

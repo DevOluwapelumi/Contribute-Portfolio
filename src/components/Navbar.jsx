@@ -5,7 +5,7 @@ const DownloadOptions = ({ href, downloadData, onDownloadClick }) => {
   return (
     <div className="dropdown">
       <button
-        className="btn btn-sm dropdown-toggle"
+        className="btn btn-s dropdown-toggle"
         type="button"
         id="downloadDropdown"
         data-bs-toggle="dropdown"
@@ -14,17 +14,25 @@ const DownloadOptions = ({ href, downloadData, onDownloadClick }) => {
         Resume
       </button>
       <ul
-        className="dropdown-menu dropdown-menu-dark text-white "
+        className="dropdown-menu dropdown-menu-dark border-0 btn-sm btn position-absolute"
         aria-labelledby="downloadDropdown"
       >
-        <li className="nav-item">
-          <a href={href} className="dropdown-item nav-link">
-            Open Online
+        <li className="nav-item btn btn-sm px-0 pt-lg-3">
+          <a
+            href={resumeUrl}
+            target="_blank"
+            className="dropdown-item nav-link btn-sm text-white py-1"
+          >
+            Web
           </a>
         </li>
-        <li className="nav-item">
-          <a className="dropdown-item nav-link" onClick={onDownloadClick}>
-            Download
+        <li className="nav-item btn btn-sm p-0">
+          <a
+            target="_blank"
+            className="dropdown-item nav-link btn btn-sm text-white m-0 py-1"
+            onClick={onDownloadClick}
+          >
+            PDF
           </a>
         </li>
       </ul>
@@ -38,23 +46,22 @@ const Navbar = () => {
   const downloadResume = async () => {
     setIsDownloading(true);
 
-    // Replace this with your actual resume data or download logic
     const resumeData =
-      "This is your resume content in text format (replace with your actual resume data)"; // Example data
+      "This is your resume content in text format"; 
 
-    const blob = new Blob([resumeData], { type: "application/pdf" }); // Adjust content type if your resume is a different format (e.g., .docx)
+    const blob = new Blob([resumeData], { type: "application/pdf" }); 
     const url = window.URL.createObjectURL(blob);
 
     const link = document.createElement("a");
     link.href = url;
-    link.download = "MyResume.pdf"; // Set your desired filename
+    link.download = "Kehinde Olaleye CV. Front_End.pdf"; 
     link.click();
 
     window.URL.revokeObjectURL(url);
     setIsDownloading(false);
   };
 
-  const resumeUrl = "https://example.com/your-resume.pdf"; // Replace with your actual resume URL
+  const resumeUrl = "https://example.com/your-resume.pdf";
 
   return (
     <div id="Home">
@@ -80,18 +87,21 @@ const Navbar = () => {
           </a>
           <div className="d-flex gap-4 px-2 mx-lg-5 social shadow rounded">
             <a
+              target="_blank"
               href="https://github.com/deeminentcoder"
               className="text-black fs-4"
             >
               <i className="fa fa-github-square" aria-hidden="true"></i>
             </a>
             <a
+              target="_blank"
               href="https://www.linkedin.com/in/kehinde-olaleye-307229123/"
               className="text-black fs-4"
             >
               <i className="fa fa-linkedin-square" aria-hidden="true"></i>
             </a>
             <a
+              target="_blank"
               href="https://twitter.com/DeEminentCoder"
               className="text-black fs-4"
             >
@@ -159,7 +169,7 @@ const Navbar = () => {
                 <div className="col-4 col-sm">
                   <li className="nav-item">
                     <DownloadOptions
-                      href={resumeUrl}
+                      href="https://www.linkedin.com/in/kehinde-olaleye-307229123/"
                       downloadData={downloadResume} // Pass the download function
                       onDownloadClick={
                         isDownloading ? () => {} : downloadResume

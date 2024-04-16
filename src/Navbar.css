@@ -107,7 +107,9 @@ nav {
     filter: blur(0px);
   }
 }
-
+.dropdown-menu-dark{
+  margin: 0 20px 0 0 !important;
+}
 .nav-ul {
   display: flex;
   /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
@@ -126,7 +128,26 @@ nav {
   -ms-transform: rotate(-5deg) skewX(15deg) translate(0, 0);
   -o-transform: rotate(-5deg) skewX(15deg) translate(0, 0);
 }
+.dropdown-toggle {
+  cursor: pointer; /* Optional: Set cursor to pointer on hover */
+}
 
+.dropdown:hover .dropdown-menu {
+  display: inherit;
+  background: inherit;
+}
+
+.dropdown.show .dropdown-menu { /* Reset Bootstrap's active state styling (optional) */
+  display: inherit;
+}
+ul .dropdown-menu-dark .nav-item a:hover {
+  box-shadow: unset;
+  transform: none;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+}
 .nav-ul li {
   list-style: none;
   /* margin:10px; */

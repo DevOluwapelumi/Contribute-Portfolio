@@ -62,7 +62,14 @@
   text-shadow: 1px 1px 5px #000000db;
     text-align: justify;
   }
+  .btn-outline-light:hover{
+    background-color: rgba(255, 255, 255, 0.482);
+    border: rgba(255, 255, 255, 0.482) ;
+  }
+.text-decoration-none span:hover{
+  color: rgb(0, 0, 0) ;
 
+}
 
 @media only screen and (max-width: 992px) {
   .about-left {

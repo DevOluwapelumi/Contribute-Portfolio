@@ -44,7 +44,7 @@ const Hero = () => {
             Javascript(React.js) <i className="bi bi-filetype-jsx"> </i> || Bootstrap <i className="bi bi-bootstrap"> </i> 
             || Tailwind
           </h6>
-          <a href="#" className="hidden btn text-light hire-me-btn">Hire Me</a>
+          <a href="#" target="_blank" className="hidden btn text-light hire-me-btn">Hire Me</a>
           {/* Assign the element to the ref */}
           <div ref={heroLeft}></div>
         </div>

@@ -4,7 +4,12 @@ import "../project.css";
 const Projects = () => {
   return (
     <>
-      <h1 id="Projects" className="hidden text-light text-center pt-5 display-3">Latest Projects</h1>
+      <h1
+        id="Projects"
+        className="hidden text-light text-center pt-5 display-3"
+      >
+        Latest Projects
+      </h1>
       <div className="row d-flex justify-content-center align-items-center p-5 gap- container-fluid m-0">
         <div className="hidden col col-lg-6">
           <div className="card">
@@ -14,10 +19,16 @@ const Projects = () => {
                 <h2 className="card__title">Paypal Landing Page</h2>
               </div>
               <div className="card__button d-flex align-items-center justify-content-center social">
-                <a href="https://paypalstaticwebclone.netlify.app/">
+                <a
+                  target="_blank"
+                  href="https://paypalstaticwebclone.netlify.app/"
+                >
                   <i className="fa fa-link " aria-hidden="true"></i>
                 </a>
-                <a href="https://github.com/DeEminentCoder/Paypal-clone">
+                <a
+                  target="_blank"
+                  href="https://github.com/DeEminentCoder/Paypal-clone"
+                >
                   <i className="fa fa-file-code-o" aria-hidden="true"></i>
                 </a>
               </div>
@@ -32,10 +43,16 @@ const Projects = () => {
                 <h2 className="card__title">Konga Clone (E-commerce)</h2>
               </div>
               <div className="card__button d-flex align-items-center justify-content-center social">
-                <a href="https://konga-clone-deeminentcoder.netlify.app/">
+                <a
+                  target="_blank"
+                  href="https://konga-clone-deeminentcoder.netlify.app/"
+                >
                   <i className="fa fa-link " aria-hidden="true"></i>
                 </a>
-                <a href="https://github.com/DeEminentCoder/Konga-E-commerce-site">
+                <a
+                  target="_blank"
+                  href="https://github.com/DeEminentCoder/Konga-E-commerce-site"
+                >
                   <i className="fa fa-file-code-o" aria-hidden="true"></i>
                 </a>
               </div>
@@ -50,10 +67,16 @@ const Projects = () => {
                 <h2 className="card__title">Love Calculator App</h2>
               </div>
               <div className="card__button d-flex align-items-center justify-content-center social">
-                <a href="https://love-calc-deeminentcoder.netlify.app/">
+                <a
+                  target="_blank"
+                  href="https://love-calc-deeminentcoder.netlify.app/"
+                >
                   <i className="fa fa-link " aria-hidden="true"></i>
                 </a>
-                <a href="https://github.com/DeEminentCoder/Love-Calculator">
+                <a
+                  target="_blank"
+                  href="https://github.com/DeEminentCoder/Love-Calculator"
+                >
                   <i className="fa fa-file-code-o" aria-hidden="true"></i>
                 </a>
               </div>
@@ -68,10 +91,16 @@ const Projects = () => {
                 <h2 className="card__title">Task-management App</h2>
               </div>
               <div className="card__button d-flex align-items-center justify-content-center social">
-                <a href="https://taskmanagement-todo.netlify.app/">
+                <a
+                  target="_blank"
+                  href="https://taskmanagement-todo.netlify.app/"
+                >
                   <i className="fa fa-link " aria-hidden="true"></i>
                 </a>
-                <a href="https://github.com/DeEminentCoder/Todo-App">
+                <a
+                  target="_blank"
+                  href="https://github.com/DeEminentCoder/Todo-App"
+                >
                   <i className="fa fa-file-code-o" aria-hidden="true"></i>
                 </a>
               </div>
@@ -86,10 +115,13 @@ const Projects = () => {
                 <h2 className="card__title">Weather App</h2>
               </div>
               <div className="card__button d-flex align-items-center justify-content-center social">
-                <a href="https://simeonweather.netlify.app/">
+                <a target="_blank" href="https://simeonweather.netlify.app/">
                   <i className="fa fa-link " aria-hidden="true"></i>
                 </a>
-                <a href="https://github.com/DeEminentCoder/My-Weather-App">
+                <a
+                  target="_blank"
+                  href="https://github.com/DeEminentCoder/My-Weather-App"
+                >
                   <i className="fa fa-file-code-o" aria-hidden="true"></i>
                 </a>
               </div>
@@ -104,10 +136,16 @@ const Projects = () => {
                 <h2 className="card__title">Currency Converter</h2>
               </div>
               <div className="card__button d-flex align-items-center justify-content-center social">
-                <a href="https://currency-converter-deeminentcoder.netlify.app/converter">
+                <a
+                  target="_blank"
+                  href="https://currency-converter-deeminentcoder.netlify.app/converter"
+                >
                   <i className="fa fa-link " aria-hidden="true"></i>
                 </a>
-                <a href="https://github.com/DeEminentCoder/Currency-Converter">
+                <a
+                  target="_blank"
+                  href="https://github.com/DeEminentCoder/Currency-Converter"
+                >
                   <i className="fa fa-file-code-o" aria-hidden="true"></i>
                 </a>
               </div>
@@ -122,10 +160,16 @@ const Projects = () => {
                 <h2 className="card__title">Scientific Calculator</h2>
               </div>
               <div className="card__button d-flex align-items-center justify-content-center social">
-                <a href="https://scientific-calculator-deeminentcoder.netlify.app/">
+                <a
+                  target="_blank"
+                  href="https://scientific-calculator-deeminentcoder.netlify.app/"
+                >
                   <i className="fa fa-link " aria-hidden="true"></i>
                 </a>
-                <a href="https://github.com/DeEminentCoder/Calculator">
+                <a
+                  target="_blank"
+                  href="https://github.com/DeEminentCoder/Calculator"
+                >
                   <i className="fa fa-file-code-o" aria-hidden="true"></i>
                 </a>
               </div>
@@ -140,10 +184,16 @@ const Projects = () => {
                 <h2 className="card__title">Piggyvest clone</h2>
               </div>
               <div className="card__button d-flex align-items-center justify-content-center social">
-                <a href="https://piggyvest-staticweb-clone.netlify.app/">
+                <a
+                  target="_blank"
+                  href="https://piggyvest-staticweb-clone.netlify.app/"
+                >
                   <i className="fa fa-link " aria-hidden="true"></i>
                 </a>
-                <a href="https://github.com/DeEminentCoder/PiggyVest-Site">
+                <a
+                  target="_blank"
+                  href="https://github.com/DeEminentCoder/PiggyVest-Site"
+                >
                   <i className="fa fa-file-code-o" aria-hidden="true"></i>
                 </a>
               </div>
@@ -152,6 +202,7 @@ const Projects = () => {
         </div>
 
         <a
+          target="_blank"
           href="https://github.com/DeEminentCoder?tab=repositories"
           className="hidden btn btn-lg text-dark btn-light w-50 mb-5 "
         >

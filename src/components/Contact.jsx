@@ -60,7 +60,11 @@ const Contact = () => {
                 <div className="wrapper m-0">
                   <h3 className="h4 contact-item-title">Email:</h3>
 
-                  <a href="simeonkenny66@gmail.com" className="contact-info">
+                  <a
+                    target="_blank"
+                    href="simeonkenny66@gmail.com"
+                    className="contact-info"
+                  >
                     simeonkenny66@gmail.com
                   </a>
                 </div>
@@ -69,17 +73,23 @@ const Contact = () => {
               <li>
                 <ul className="social-links py-5 m-0 px-0  d-flex justify-content-center align-items-center">
                   <li className="hidden">
-                    <a href="https://github.com/deeminentcoder">
+                    <a target="_blank" href="https://github.com/deeminentcoder">
                       <span className="fa-brands fa-github github"></span>
                     </a>
                   </li>
                   <li className="hidden">
-                    <a href="https://www.linkedin.com/in/kehinde-olaleye-307229123/">
+                    <a
+                      target="_blank"
+                      href="https://www.linkedin.com/in/kehinde-olaleye-307229123/"
+                    >
                       <span className="fa-brands fa-linkedin linkedin"></span>
                     </a>
                   </li>
                   <li className="hidden">
-                    <a href="https://twitter.com/DeEminentCoder">
+                    <a
+                      target="_blank"
+                      href="https://twitter.com/DeEminentCoder"
+                    >
                       <span className="fa-brands fa-twitter twitter"></span>
                     </a>
                   </li>

@@ -12,6 +12,7 @@ import Projects from "./components/Projects.jsx";
 import Contact from "./components/Contact.jsx";
 import { Routes, Route, Navigate } from "react-router-dom";
 import NotFound from "./components/NotFound.jsx";
+import Resume from "./components/Resume.jsx";
 
 const App = () => {
   return (
@@ -35,6 +36,7 @@ const App = () => {
       <Projects></Projects>
       <Footer></Footer>
       <Contact></Contact>
+      {/* <Resume></Resume> */}
       {/* <NotFound></NotFound> */}
     </>
   );
