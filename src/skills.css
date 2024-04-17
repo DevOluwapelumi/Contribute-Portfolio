@@ -36,7 +36,7 @@
   -ms-transform: translateX(0);
   -o-transform: translateX(0);
 }
-.section h6{
+.section h6 {
   text-align: justify;
 }
 .skill-icons--javascript {
@@ -128,11 +128,8 @@
   font-size: 5em;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'%3E%3Cg fill='none'%3E%3Crect width='256' height='256' fill='%23242938' rx='60'/%3E%3Cg clip-path='url(%23skillIconsFigmaDark0)'%3E%3Cpath fill='%230acf83' d='M94.347 228c18.4 0 33.333-14.933 33.333-33.333v-33.334H94.347c-18.4 0-33.334 14.934-33.334 33.334c0 18.4 14.934 33.333 33.334 33.333'/%3E%3Cpath fill='%23a259ff' d='M61.013 128c0-18.4 14.934-33.333 33.334-33.333h33.333v66.666H94.347c-18.4 0-33.334-14.933-33.334-33.333'/%3E%3Cpath fill='%23f24e1e' d='M61.013 61.333C61.013 42.933 75.947 28 94.347 28h33.333v66.667H94.347c-18.4 0-33.334-14.934-33.334-33.334'/%3E%3Cpath fill='%23ff7262' d='M127.68 28h33.333c18.4 0 33.334 14.933 33.334 33.333s-14.934 33.334-33.334 33.334H127.68z'/%3E%3Cpath fill='%231abcfe' d='M194.347 128c0 18.4-14.934 33.333-33.334 33.333c-18.4 0-33.333-14.933-33.333-33.333s14.933-33.333 33.333-33.333S194.347 109.6 194.347 128'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='skillIconsFigmaDark0'%3E%3Cpath fill='%23fff' d='M61 28h133.36v200H61z'/%3E%3C/clipPath%3E%3C/defs%3E%3C/g%3E%3C/svg%3E");
-  }
-
-
-
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'%3E%3Cg fill='none'%3E%3Crect width='256' height='256' fill='%23242938' rx='60'/%3E%3Cg clip-path='url(%23skillIconsFigmaDark0)'%3E%3Cpath fill='%230acf83' d='M94.347 228c18.4 0 33.333-14.933 33.333-33.333v-33.334H94.347c-18.4 0-33.334 14.934-33.334 33.334c0 18.4 14.934 33.333 33.334 33.333'/%3E%3Cpath fill='%23a259ff' d='M61.013 128c0-18.4 14.934-33.333 33.334-33.333h33.333v66.666H94.347c-18.4 0-33.334-14.933-33.334-33.333'/%3E%3Cpath fill='%23f24e1e' d='M61.013 61.333C61.013 42.933 75.947 28 94.347 28h33.333v66.667H94.347c-18.4 0-33.334-14.934-33.334-33.334'/%3E%3Cpath fill='%23ff7262' d='M127.68 28h33.333c18.4 0 33.334 14.933 33.334 33.333s-14.934 33.334-33.334 33.334H127.68z'/%3E%3Cpath fill='%231abcfe' d='M194.347 128c0 18.4-14.934 33.333-33.334 33.333c-18.4 0-33.333-14.933-33.333-33.333s14.933-33.333 33.333-33.333S194.347 109.6 194.347 128'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='skillIconsFigmaDark0'%3E%3Cpath fill='%23fff' d='M61 28h133.36v200H61z'/%3E%3C/clipPath%3E%3C/defs%3E%3C/g%3E%3C/svg%3E");
+}
 
 :root {
   --size: clamp(10rem, 1rem + 40vmin, 30rem);
@@ -182,43 +179,43 @@
   animation: scroll-x var(--duration) linear infinite;
   -webkit-animation: scroll-x var(--duration) linear infinite;
 }
-.marquee__group:nth-child(1){
+.marquee__group:nth-child(1) {
   transition-delay: 100ms;
 }
-.marquee__group:nth-child(2){
+.marquee__group:nth-child(2) {
   transition-delay: 300ms;
 }
-.marquee__group:nth-child(3){
+.marquee__group:nth-child(3) {
   transition-delay: 500ms;
 }
-.marquee__group:nth-child(4){
+.marquee__group:nth-child(4) {
   transition-delay: 700ms;
 }
-.marquee__group:nth-child(5){
+.marquee__group:nth-child(5) {
   transition-delay: 900ms;
 }
-.marquee__group:nth-child(6){
+.marquee__group:nth-child(6) {
   transition-delay: 1100ms;
 }
-.marquee__group:nth-child(7){
+.marquee__group:nth-child(7) {
   transition-delay: 1300ms;
 }
-.marquee__group:nth-child(8){
+.marquee__group:nth-child(8) {
   transition-delay: 1500ms;
 }
-.marquee__group:nth-child(9){
+.marquee__group:nth-child(9) {
   transition-delay: 1700ms;
 }
-.marquee__group:nth-child(10){
+.marquee__group:nth-child(10) {
   transition-delay: 1900ms;
 }
-.marquee__group:nth-child(11){
+.marquee__group:nth-child(11) {
   transition-delay: 2100ms;
 }
-.marquee__group:nth-child(12){
+.marquee__group:nth-child(12) {
   transition-delay: 2300ms;
 }
-.marquee__group span h6{
+.marquee__group span h6 {
   margin-top: 90px;
   font-weight: 100;
   color: aliceblue;
@@ -248,8 +245,6 @@
     transform: translateX(var(--scroll-end));
   }
 }
-
-
 
 @keyframes fade {
   to {

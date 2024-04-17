@@ -19,7 +19,7 @@ const DownloadOptions = ({ href, downloadData, onDownloadClick }) => {
       >
         <li className="nav-item btn btn-sm px-0 pt-lg-3">
           <a
-            href={resumeUrl}
+            href={href}
             target="_blank"
             className="dropdown-item nav-link btn-sm text-white py-1"
           >

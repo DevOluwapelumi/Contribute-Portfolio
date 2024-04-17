@@ -100,7 +100,7 @@ h2 {
   position: relative;
   bottom: 10px;
   width: fit-content;
-  width: -moz-fit-content; /* Prefijo necesario para Firefox  */
+  width: -moz-fit-content; /* Firefox  */
 }
 
 .card__title::after {

@@ -1,18 +1,17 @@
 import React from "react";
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "../node_modules/bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/Navbar.jsx";
 import Hero from "./components/Hero.jsx";
 import AboutMe from "./components/AboutMe.jsx";
-import Footer from "./components/Footer.jsx";
 import Skills from "./components/Skills.jsx";
 import Projects from "./components/Projects.jsx";
 import Contact from "./components/Contact.jsx";
 import { Routes, Route, Navigate } from "react-router-dom";
 import NotFound from "./components/NotFound.jsx";
-import Resume from "./components/Resume.jsx";
+import "./AboutMe.css";
 
 const App = () => {
   return (
@@ -26,7 +25,6 @@ const App = () => {
         <Route path="/skills" element={<Skills />} />
         <Route path="/Projects" element={<Projects />} />
         <Route path="/Contact" element={<Contact />} />
-        <Route path="/Footer" element={<Footer />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
 
@@ -34,9 +32,7 @@ const App = () => {
       <AboutMe></AboutMe>
       <Skills></Skills>
       <Projects></Projects>
-      <Footer></Footer>
       <Contact></Contact>
-      {/* <Resume></Resume> */}
       {/* <NotFound></NotFound> */}
     </>
   );

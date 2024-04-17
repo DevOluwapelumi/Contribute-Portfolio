@@ -11,7 +11,7 @@ const Projects = () => {
         Latest Projects
       </h1>
       <div className="row d-flex justify-content-center align-items-center p-5 gap- container-fluid m-0">
-        <div className="hidden col col-lg-6">
+        <div className="hidden col col-lg-6 pb- mb-4">
           <div className="card">
             <img className="card__background" src="de.jpg" alt="" />
             <div className="card__content | flow p-4 ">
@@ -35,7 +35,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="hidden col col-lg-6">
+        <div className="hidden col col-lg-6 pb- mb-4">
           <div className="card ">
             <img className="card__background" src="wee.png" alt="" />
             <div className="card__content | flow p-4 ">
@@ -59,7 +59,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="hidden col col-lg-6">
+        <div className="hidden col col-lg-6 pb- mb-4">
           <div className="card ">
             <img className="card__background" src="wew.png" alt="" />
             <div className="card__content | flow p-4 ">
@@ -83,7 +83,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="hidden col col-lg-6">
+        <div className="hidden col col-lg-6 pb- mb-4">
           <div className="card ">
             <img className="card__background" src="todo.png" alt="" />
             <div className="card__content | flow p-4 ">
@@ -107,7 +107,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="hidden col col-lg-6">
+        <div className="hidden col col-lg-6 pb- mb-4">
           <div className="card ">
             <img className="card__background" src="wea.png" alt="" />
             <div className="card__content | flow p-4 ">
@@ -128,7 +128,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="hidden col col-lg-6">
+        <div className="hidden col col-lg-6 pb- mb-4">
           <div className="card ">
             <img className="card__background" src="conv.png" alt="" />
             <div className="card__content | flow p-4 ">
@@ -152,7 +152,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="hidden col col-lg-6">
+        <div className="hidden col col-lg-6 pb- mb-4">
           <div className="card ">
             <img className="card__background" src="calc.png" alt="" />
             <div className="card__content | flow p-4 ">
@@ -176,7 +176,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="hidden col col-lg-6">
+        <div className="hidden col col-lg-6 pb- mb-4">
           <div className="card ">
             <img className="card__background" src="pig.png" alt="" />
             <div className="card__content | flow p-4 ">

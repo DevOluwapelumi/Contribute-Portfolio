@@ -1,12 +1,35 @@
-import React from "react";
+import React, { useRef, useEffect } from "react";
 import "../AboutMe.css";
 
 const AboutMe = () => {
+  const navButtonRef = useRef(null); // Ref to store the navigation button element
+
+  const handleDownloadClick = () => {
+    if (navButtonRef.current) {
+      // Simulate blinking effect using CSS class toggle
+      navButtonRef.current.classList.toggle("blink");
+      setTimeout(() => {
+        navButtonRef.current.classList.toggle("blink");
+      }, 1000); // Adjust timeout for blink duration (1 second here)
+    }
+  };
+
+  useEffect(() => {
+    // Optional: Pre-fetch the navigation button element on component mount
+    const navButton = document.getElementById("dropdown");
+    if (navButton) {
+      navButtonRef.current = navButton;
+    }
+  }, []);
+
   return (
     <>
-      <section id="About-me" className="d-grid justify-content-center align-items-center position-relative container-fluid p-5 bg- about-me-container">
+      <section
+        id="About-me"
+        className="d-grid justify-content-center align-items-center position-relative container-fluid p-5 bg- about-me-container"
+      >
         <h1 className="hidden display-3 text-center">About Me</h1>
-        <div className="hidden row d-flex justify-content-center align-content-center p-4 m-lg-5 rounded-4 gap-1 about-me">
+        <div className="hidden row d-flex justify-content-center align-content-center p-4 m-lg-5 rounded-4 gap-1 about-me shadow ">
           <div className="col-4 about-left">
             <img
               src="fb.jpg"
@@ -30,14 +53,23 @@ const AboutMe = () => {
               and technologies in the web development field.
             </span>
             <div className="row p-3 d-flex align-content-start justify-content-start gap-3">
-              <button className="btn btn-lg btn-outline-light col-sm-4 col-12">
-              <i className="fas fa-sms"></i>
-                <a href="#Contact" className="text-decoration-none link-light "> <span>Contact Me</span></a>
-              </button>
-              <button className="btn btn-lg btn-danger col-sm-4 col-12 ">
-              <i className="fa fa-file-o file"> </i>
+              <a
+                href="#Contact"
+                className="text-decoration-none link-light btn btn-lg btn-outline-light col-sm-4 col-12"
+              >
+                <i className="fas fa-sms shadow-sm"></i>
+
+                <span> Contact Me</span>
+              </a>
+              <a
+                id="download-CV-butt"
+                href=""
+                className="btn btn-lg btn-danger col-sm-4 col-12 "
+                onClick={handleDownloadClick}
+              >
+                <i className="fa fa-file-o file"> </i>
                 <span> Download CV</span>
-              </button>
+              </a>
             </div>
           </div>
         </div>

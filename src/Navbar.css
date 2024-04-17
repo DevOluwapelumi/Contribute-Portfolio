@@ -107,7 +107,7 @@ nav {
     filter: blur(0px);
   }
 }
-.dropdown-menu-dark{
+.dropdown-menu-dark {
   margin: 0 20px 0 0 !important;
 }
 .nav-ul {
@@ -129,7 +129,7 @@ nav {
   -o-transform: rotate(-5deg) skewX(15deg) translate(0, 0);
 }
 .dropdown-toggle {
-  cursor: pointer; /* Optional: Set cursor to pointer on hover */
+  cursor: pointer;
 }
 
 .dropdown:hover .dropdown-menu {
@@ -137,8 +137,21 @@ nav {
   background: inherit;
 }
 
-.dropdown.show .dropdown-menu { /* Reset Bootstrap's active state styling (optional) */
+.dropdown.show .dropdown-menu {
   display: inherit;
+}
+.dropdown {
+  animation: blink 2s ease-in-out 5 alternate;
+  -webkit-animation: blink 2s ease-in-out 5 alternate;
+}
+
+@keyframes blink {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }
 ul .dropdown-menu-dark .nav-item a:hover {
   box-shadow: unset;
@@ -192,11 +205,11 @@ ul .dropdown-menu-dark .nav-item a:hover {
 }
 .nav-ul li .active:hover {
   transition: 0.5s;
-  transform:  none;
-  -webkit-transform:  none;
-  -moz-transform:  none;
-  -ms-transform:  none;
-  -o-transform:  none;
+  transform: none;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
 }
 .nav-ul li:hover .fa {
   color: #fff;
